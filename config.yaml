@@ -1,0 +1,80 @@
+baseURL: https://example.com/
+languageCode: en-us
+title: Cleiton Rocha
+theme: personal-web
+copyright: © Cleiton Rocha
+googleAnalytics: ''
+enableEmoji: yes
+enableRobotsTXT: yes
+pygmentsUseClasses: yes
+pygmentsCodeFences: yes
+params:
+  accentColor: '#FD3519'
+  assets:
+    customCSS: ''
+    favicon: ''
+  breadcrumb: yes
+  contact:
+    email: 'cleitonotavio058@gmail.com'
+    text: ''
+  intro:
+    main: 'Cleiton Rocha'
+    sub: Graduando em Economia (UFBA) e Data Analyst na SEI
+  main:
+    latestPublishHeader: My Latest Project
+  mainSections: portfolio
+  notFound:
+    gopher: /images/gopher.png
+    h1: Bummer!
+    p: It seems that this page doesn't exist.
+  sections:
+    portfolio: project
+    post: article
+  sidebar:
+    backgroundImage: ''
+    gradientOverlay: ''
+    logo: ''
+  social:
+    github: https://github.com/CleitonOERocha
+    linkedin: https://www.linkedin.com/in/cleitonoerocha/
+    medium: https://medium.com/@cleitonotavio058
+    twitter: https://twitter.com/CleitonOERocha
+    youtube: https://www.youtube.com/
+taxonomies:
+  design: designs
+  tech: techs
+blackfriday:
+  hrefTargetBlank: yes
+menu:
+  main:
+     - identifier: blog
+      name: Postes
+      title: Postes
+      url: /post/
+      weight: -100
+      - identifier: portfolio
+      name: Portfolio
+      title: Portfolio
+      url: /portfolio/
+      weight: -110
+    - identifier: sobremim
+      name: Sobre mim
+      title: Sobre mim
+      url: /about/
+      weight: -120
+    
+   
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+privacy:
+  googleAnalytics:
+    anonymizeIP: yes
+    disable: yes
+    respectDoNotTrack: yes
+    useSessionStorage: no
+  twitter:
+    disable: no
+    enableDNT: yes
+    simple: no
