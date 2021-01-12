@@ -1,31 +1,21 @@
 ---
 date: "2019-05-02T19:47:09+02:00"
 description: This is the description of our sample project
-designs:
-- Photoshop
-jobDate: 2019
-projectUrl: https://www.sampleorganization.org
+jobDate: 2021
 techs:
-- javascript
-- D3
+- Rstats
 testimonial:
-  image: sample-project/john.jpg
-  name: John Doe
-  role: CEO @Example
-  text: Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm.
-    Pinnace holystone mizzenmast quarter crow's nest nipperkin
-thumbnail: sample-project/sample.jpg
-title: Sample project
+  image: sample-project/pp.jpg
+  name: Cleiton Rocha
+  role: Data Analyst
+  text: Graduating in Economics at UFBA | Data analyst at the Superintendency of Economic and Social Studies of Bahia - SEI | CIDACS collaborator in projects related to COVID-19 | Focus on Economic Development and Finance.
+thumbnail: sample-project/decretos_covid.png
+title: Utilizando o R para obter decretos relacionados ao COVID-19 no Brasil
 work:
-- design
-- architecture
+- Rstats
+- COVID-19
 ---
 
-This would be a description of your sample project. You can add any content you'd like.
+No Brasil, diante da emergência sanitária mundial, as autoridades estabeleceram diversas portarias/decretos com regras e normas para funcionamento de serviços de saúde e serviços não essenciais.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Na maioria das unidades da federação, as aulas na rede pública e na rede privada foram suspensas. Eventos com grande número de pessoas foram proibidos. Houve mudanças no transporte público, com redução de frota, e alterações nas regras de abertura de comércios, bares, restaurantes e shoppings.

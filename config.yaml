@@ -19,9 +19,9 @@ params:
     text: ''
   intro:
     main: 'Cleiton Rocha'
-    sub: Graduando em Economia (UFBA) e Data Analyst na SEI
+    sub: Graduando em Economia - UFBA | Data Analyst na SEI
   main:
-    latestPublishHeader: My Latest Project
+    latestPublishHeader: Última publicação
   mainSections: portfolio
   notFound:
     gopher: /images/gopher.png
@@ -31,9 +31,9 @@ params:
     portfolio: project
     post: article
   sidebar:
-    backgroundImage: ''
+    backgroundImage: '/images/tidyverse.jpg'
     gradientOverlay: ''
-    logo: ''
+    logo: '/images/pp.jpg'
   social:
     github: https://github.com/CleitonOERocha
     linkedin: https://www.linkedin.com/in/cleitonoerocha/
@@ -47,12 +47,12 @@ blackfriday:
   hrefTargetBlank: yes
 menu:
   main:
-     - identifier: blog
-      name: Postes
-      title: Postes
+    - identifier: blog
+      name: Posts
+      title: Posts
       url: /post/
       weight: -100
-      - identifier: portfolio
+    - identifier: portfolio
       name: Portfolio
       title: Portfolio
       url: /portfolio/
