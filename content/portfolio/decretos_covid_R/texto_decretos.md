@@ -4,6 +4,7 @@ description: This is the description of our sample project
 jobDate: 08/09/2020
 techs:
 - Rstats
+- COVID-19
 thumbnail: decretos_covid_R/decretos_covid.png
 title: Utilizando o R para obter decretos relacionados ao COVID-19 no Brasil
 work:
